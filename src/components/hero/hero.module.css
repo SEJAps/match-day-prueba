@@ -1,3 +1,28 @@
+.hero {
+  display: grid;
+  grid-template-rows: 0.25fr 1fr;
+  color: #F5F5F5;
+  min-height: 789px;
+}
+
+.heroHeader {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroTitle {
+  font-size: 2.90rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+
+.heroContent {
+  padding: 2rem;
+}
+
 .groupSvg {
   position: absolute;
   top: 4rem;

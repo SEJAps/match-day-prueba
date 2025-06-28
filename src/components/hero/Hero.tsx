@@ -5,15 +5,19 @@ import match_day from "@/assets/images/svg/match_day.svg"
 
 const Hero: FC = () => {
   return (
-    <section>
-      <h2>¿Quieres que te vean? Haz que cada partido cuente.</h2>
-      <p>Impulsa tu carrera desde hoy.</p>
-      <ul>
-        <li>Crea tu perfil gratis</li>
-        <li>Sube tus estadísticas</li>
-        <li>Hazte visible para clubes</li>
-        <li>Empieza a destacar hoy</li>
-      </ul>
+    <section className={styles.hero}>
+      <header className={styles.heroHeader}>
+        <h2 className={styles.heroTitle}>¿Quieres que te vean? Haz que cada partido cuente.</h2>
+      </header>
+      <article className={styles.heroContent}>
+        <p>Impulsa tu carrera desde hoy.</p>
+        <ul>
+          <li>Crea tu perfil gratis</li>
+          <li>Sube tus estadísticas</li>
+          <li>Hazte visible para clubes</li>
+          <li>Empieza a destacar hoy</li>
+        </ul>
+      </article>
       <aside className={styles.groupSvg}>
         <img src={digital2} alt="Imagen digital" width={789} height={670} />
         <img className={styles.matchDay} src={match_day} alt="Imagen de partido" width={222} height={181} />
