@@ -1,17 +1,16 @@
 import type { FC } from "react";
-import reactLogo from '@/assets/react.svg'
-import Logo from '/Logo.svg'
+import styles from "./account.module.css";
 
 const Account: FC = () => {
   return (
-    <div>
-      <a href="https://vite.dev" target="_blank">
-        <img src={Logo} className="logo" alt="Vite logo" />
+    <nav className={styles.container}>
+      <a href="#" className={styles.signIn}>
+        Sign In
       </a>
-      <a href="https://react.dev" target="_blank">
-        <img src={reactLogo} className="logo react" alt="React logo" />
+      <a href="#" className={styles.signUp}>
+        Register
       </a>
-    </div>
+    </nav>
   );
 };
 
