@@ -20,7 +20,36 @@
 }
 
 .heroContent {
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.heroDescription {
+  font-size: 2rem;
+  color: #E0E0E0;
+  font-weight: bold;
+}
+
+.heroList {
+  list-style: none;
+  padding: 0 2rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #E0E0E0;
+  font-weight: bold;
+}
+
+.heroListItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & span {
+    font-size: 1.5rem;
+  }
 }
 
 .groupSvg {
