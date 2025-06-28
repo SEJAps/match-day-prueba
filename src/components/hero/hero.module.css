@@ -1,6 +1,6 @@
 .hero {
   display: grid;
-  grid-template-rows: 0.25fr 1fr;
+  grid-template-rows: 0.25fr 1fr .5fr;
   color: #F5F5F5;
   min-height: 789px;
 }
@@ -20,7 +20,7 @@
 }
 
 .heroContent {
-  padding: 2rem 2rem 2rem 8rem;
+  padding: 2rem 2rem 2rem 4rem;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -67,4 +67,27 @@
   left: 50%;
   top: 50%;
   transform: translate(-15%, -50%);
+}
+
+.heroFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 7rem;
+  width: fit-content;
+}
+
+.heroButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2F796C;
+  color: #FFFFFF;
+  border: 4px solid #18917B;
+  padding: 0.5rem 1.5rem;
+  font-weight: semibold;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 32px;
 }
