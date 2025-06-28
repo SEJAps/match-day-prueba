@@ -8,9 +8,12 @@ const App: FC = () => {
   return (
     <>
       <Header />
-      <main className={styles.main}>
-        <Hero />
-      </main>
+      <section className={styles.container}>
+        <main className={styles.main}>
+          <Hero />
+        </main>
+      </section>
+
     </>
   )
 }
