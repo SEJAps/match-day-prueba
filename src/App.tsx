@@ -1,21 +1,22 @@
 import '@/assets/styles/App.css'
 import type { FC } from 'react'
-import reactLogo from '@/assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import Header from './components/header/Header'
 
 const App: FC = () => {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-
+      <Header />
+      <main>
+        <h2>Welcome to Match Day!</h2>
+        <p>This is a simple React application to track your favorite football matches.</p>
+        <p>Feel free to explore the features and customize it to your liking.</p>
+        <p>Enjoy the game!</p>
+      </main>
+      <footer>
+        <p>&copy; 2023 Match Day. All rights reserved.</p>
+      </footer>
     </>
   )
 }
