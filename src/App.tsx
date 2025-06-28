@@ -1,7 +1,5 @@
-import '@/assets/styles/App.css'
 import type { FC } from 'react'
-
-import Header from './components/header/Header'
+import Header from '@/components/header/Header'
 
 const App: FC = () => {
 
