@@ -12,10 +12,10 @@ const App: FC = () => {
         <h2>¿Quieres que te vean? Haz que cada partido cuente.</h2>
         <p>Impulsa tu carrera desde hoy.</p>
         <ul>
-          <li>Conviértete en un jugador profesional.</li>
-          <li>Mejora tus habilidades y destaca en el campo.</li>
-          <li>Únete a una comunidad de jugadores apasionados.</li>
-          <li>Accede a recursos exclusivos para tu desarrollo.</li>
+          <li>Crea tu perfil gratis</li>
+          <li>Sube tus estadísticas</li>
+          <li>Hazte visible para clubes</li>
+          <li>Empieza a destacar hoy</li>
         </ul>
         <aside className={styles.groupSvg}>
           <img src={digital2} alt="Imagen digital" width={789} height={670} />
