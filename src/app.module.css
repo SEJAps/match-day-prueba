@@ -6,22 +6,4 @@
   min-height: 100dvh;
   margin: 0 auto;
   color: #F5F5F5;
-
-}
-
-.groupSvg {
-  position: absolute;
-  top: 4rem;
-  right: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.matchDay {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-15%, -50%);
 }
